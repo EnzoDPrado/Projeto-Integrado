@@ -31,5 +31,8 @@ const getCursos = () => {
     return holdCursos;
 }
 
+module.exports = {
+    getCursos,
+}
 
 
