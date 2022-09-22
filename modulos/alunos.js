@@ -782,6 +782,7 @@ const getAlunosByDisciplinas = (nomeDisciplina = '') => {
                     sexo: item.sexo,
                     matricula: item.matricula,
                     nomeCurso: get.nome,
+                    conclusao: get.conclusao,
                     }
                 )
                 erro = false;
@@ -795,7 +796,6 @@ const getAlunosByDisciplinas = (nomeDisciplina = '') => {
         return holdAlunos
 }
 
-//Fazer uma funcao para pegar o ano de conclusao, POREM 1 ANO DE CADA EX: 2018,2019,2020,2021
 
 
 module.exports = {
